@@ -1,0 +1,13 @@
+# HELP orders_processed_total Number of orders successfully processed
+# TYPE orders_processed_total counter
+orders_processed_total{region="us-east"} 438
+orders_processed_total{region="eu-west"} 297
+
+# HELP signup_attempts_total Total signup attempts
+# TYPE signup_attempts_total counter
+signup_attempts_total{source="web"} 812
+signup_attempts_total{source="mobile"} 489
+
+# HELP active_sessions Current active user sessions
+# TYPE active_sessions gauge
+active_sessions 123
