@@ -1,1 +1,1 @@
-# system-monitoring
+This folder contains detailed documentation for understanding system health monitoring, observability practices, and internal system diagnostics.
