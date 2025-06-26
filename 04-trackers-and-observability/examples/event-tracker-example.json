@@ -1,0 +1,11 @@
+function trackEvent(eventName, metadata) {
+  const event = {
+    event: eventName,
+    ...metadata,
+    timestamp: new Date().toISOString()
+  };
+  console.log(JSON.stringify(event)); // Or send to a logging system
+}
+
+trackEvent("user_signup", { user_id: "2487", source: "web" });
+trackEvent("order_placed", { order_id: "X123", amount: 250 });

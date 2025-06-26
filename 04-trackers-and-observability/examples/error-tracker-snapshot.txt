@@ -1,0 +1,6 @@
+[ERROR] 2025-06-26 13:47:12
+Unhandled exception in /checkout:
+ReferenceError: itemPrice is not defined
+    at calculateTotal (order.js:52)
+    at processCheckout (checkout.js:22)
+Captured by: Sentry (event_id: 28c3a192f)
