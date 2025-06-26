@@ -1,0 +1,8 @@
+{
+  "timestamp": "2025-06-26T14:00:02Z",
+  "level": "error",
+  "event": "order_failed",
+  "user_id": 42,
+  "product_id": 123,
+  "reason": "out_of_stock"
+}

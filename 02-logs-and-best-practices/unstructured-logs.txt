@@ -1,0 +1,1 @@
+User 42 tried to order product 123 but it was out of stock
